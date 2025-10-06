@@ -1,0 +1,176 @@
+[
+  {
+    "id": 7453,
+    "type": "host-to-guest",
+    "status": "published",
+    "rating": null,
+    "publicReview": "Shane and family were wonderful guests. Would happily host again!",
+    "reviewCategory": [
+      { "category": "cleanliness", "rating": 10 },
+      { "category": "communication", "rating": 10 },
+      { "category": "respect_house_rules", "rating": 10 }
+    ],
+    "submittedAt": "2020-08-21 22:45:14",
+    "guestName": "Shane Finkelstein",
+    "listingName": "2B N1A - 29 Shoreditch Heights"
+  },
+  {
+    "id": 8120,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": 9,
+    "publicReview": "Great location, clean apartment. A bit noisy on Friday night.",
+    "reviewCategory": [
+      { "category": "cleanliness", "rating": 9 },
+      { "category": "location", "rating": 10 },
+      { "category": "noise", "rating": 6 }
+    ],
+    "submittedAt": "2021-05-02 10:03:20",
+    "guestName": "Alex Doe",
+    "listingName": "2B N1A - 29 Shoreditch Heights"
+  },
+  {
+    "id": 9001,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": 7,
+    "publicReview": "Check-in was smooth. Bathroom could be cleaner.",
+    "reviewCategory": [
+      { "category": "cleanliness", "rating": 6 },
+      { "category": "check_in", "rating": 8 },
+      { "category": "communication", "rating": 8 }
+    ],
+    "submittedAt": "2022-12-11 16:13:02",
+    "guestName": "Maria S",
+    "listingName": "Baker Street Loft"
+  },
+  {
+    "id": 9002,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": 10,
+    "publicReview": "Amazing stay, would return!",
+    "reviewCategory": [
+      { "category": "cleanliness", "rating": 10 },
+      { "category": "location", "rating": 10 },
+      { "category": "check_in", "rating": 10 }
+    ],
+    "submittedAt": "2024-01-03 09:20:00",
+    "guestName": "Lucy P",
+    "listingName": "Baker Street Loft"
+  },
+  {
+    "id": 9003,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": null,
+    "publicReview": "Stylish flat and comfy bed. Wi-Fi could be faster for video calls.",
+    "reviewCategory": [
+      { "category": "wifi", "rating": 6 },
+      { "category": "comfort", "rating": 9 },
+      { "category": "location", "rating": 9 }
+    ],
+    "submittedAt": "2024-03-18 14:47:00",
+    "guestName": "Tim R",
+    "listingName": "Kensington Garden Flat"
+  },
+  {
+    "id": 9004,
+    "type": "host-to-guest",
+    "status": "published",
+    "rating": null,
+    "publicReview": "Left the place spotless and communicated clearly. Welcome back anytime.",
+    "reviewCategory": [
+      { "category": "cleanliness", "rating": 10 },
+      { "category": "communication", "rating": 9 }
+    ],
+    "submittedAt": "2024-04-02 08:15:22",
+    "guestName": "Rina K",
+    "listingName": "Kensington Garden Flat"
+  },
+  {
+    "id": 9005,
+    "type": "guest-to-host",
+    "status": "pending",
+    "rating": 8,
+    "publicReview": "Good value. Heating took a while to kick in.",
+    "reviewCategory": [
+      { "category": "value", "rating": 9 },
+      { "category": "amenities", "rating": 7 }
+    ],
+    "submittedAt": "2024-05-12 19:03:10",
+    "guestName": "Omar E",
+    "listingName": "Canary Wharf Studio"
+  },
+  {
+    "id": 9006,
+    "type": "guest-to-host",
+    "status": "hidden",
+    "rating": 6,
+    "publicReview": "Okay for a short stay. Street noise at night.",
+    "reviewCategory": [
+      { "category": "noise", "rating": 5 },
+      { "category": "location", "rating": 8 }
+    ],
+    "submittedAt": "2024-06-01 21:40:55",
+    "guestName": "Nina P",
+    "listingName": "Canary Wharf Studio"
+  },
+  {
+    "id": 9007,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": null,
+    "publicReview": "Host was responsive. Kitchen had everything we needed.",
+    "reviewCategory": [
+      { "category": "communication", "rating": 9 },
+      { "category": "amenities", "rating": 9 },
+      { "category": "cleanliness", "rating": 8 }
+    ],
+    "submittedAt": "2024-07-09 11:22:10",
+    "guestName": "Yuki M",
+    "listingName": "2B N1A - 29 Shoreditch Heights"
+  },
+  {
+    "id": 9008,
+    "type": "host-to-guest",
+    "status": "published",
+    "rating": null,
+    "publicReview": "Great communication and respected house rules.",
+    "reviewCategory": [
+      { "category": "communication", "rating": 10 },
+      { "category": "respect_house_rules", "rating": 10 }
+    ],
+    "submittedAt": "2024-08-15 07:05:35",
+    "guestName": "Arjun B",
+    "listingName": "Baker Street Loft"
+  },
+  {
+    "id": 9009,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": 8,
+    "publicReview": "Bright, airy space. Stairs are steep—heads up if you have luggage.",
+    "reviewCategory": [
+      { "category": "location", "rating": 9 },
+      { "category": "accessibility", "rating": 6 }
+    ],
+    "submittedAt": "2024-09-20 13:33:49",
+    "guestName": "Hannah W",
+    "listingName": "Kensington Garden Flat"
+  },
+  {
+    "id": 9010,
+    "type": "guest-to-host",
+    "status": "published",
+    "rating": 9,
+    "publicReview": "Perfect for business travel. Quiet and fast Wi-Fi.",
+    "reviewCategory": [
+      { "category": "wifi", "rating": 10 },
+      { "category": "noise", "rating": 9 }
+    ],
+    "submittedAt": "2024-10-01 08:02:00",
+    "guestName": "Marco L",
+    "listingName": "Canary Wharf Studio"
+  }
+]
