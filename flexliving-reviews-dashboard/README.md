@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FlexLiving Reviews Dashboard
 
-## Getting Started
+A small, full-stack demo that ingests (mocked) Hostaway reviews, optionally blends Google Reviews, lets managers **approve** reviews in a dashboard, and renders **approved guest reviews only** on a Flex-style property page.
 
-First, run the development server:
+---
 
+## ✨ Highlights
+
+- **Next.js (App Router) + TypeScript + Tailwind**
+- **Normalized review model** across sources (Hostaway + optional Google)
+- **Manager Dashboard**
+  - Filter by listing, channel, category, time window
+  - Search + sort (per-review rating and per-listing average)
+  - Approve / unapprove; quick link to property page
+  - “Top issues” from category scores
+- **Property Page (Flex look & feel)**
+  - Only approved **guest→host** reviews
+  - Approved average (0–10) with 5-star display
+- **Hostaway adapter (mocked)**
+  - Sandbox has no reviews; ships realistic JSON and a normalizer
+- **Google Reviews (exploration)**
+  - Optional Place Details integration; normalized & cached
+
+---
+
+## 🧱 Tech Stack
+
+- **Framework:** Next.js (App Router), React 18, TypeScript  
+- **Styling:** Tailwind CSS  
+- **API:** Next.js Route Handlers (`/app/api/**`)  
+- **State:** Local component state; approvals stored in `localStorage` for demo  
+- **Deploy:** Vercel
+
+---
+
+## 🚀 Quick Start
 ```bash
+# clone (public repo)
+git clone https://github.com/Habibeyilmazz/flexliving-reviews-dashboard.git
+cd flexliving-reviews-dashboard
+
+# install
+npm i
+
+# env
+cp .env.example .env.local   # then edit .env.local (see below)
+
+# dev
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# open http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Environment Variables
+Create .env.local (or set on Vercel). The app runs fully with mocks — no secrets required.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🧩 Features
+Manager Dashboard
 
-## Learn More
+Filters: listing, review type (guest→host default), channel (Google/Flex), category, time (All / 30d / 90d), “Only approved”
 
-To learn more about Next.js, take a look at the following resources:
+Sort: newest/oldest, highest/lowest rating (per-review), highest/lowest listing average
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Insights: listing averages (guest perspective), Top issues (lowest-avg categories across approved)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Actions: approve/unapprove (demo via localStorage), View property page → link
 
-## Deploy on Vercel
+Search: guest name / text / listing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Property Page (public)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Flex-style layout (green header, cards)
+
+Only approved + guest→host + published reviews
+
+Approved average and star display
+
+Friendly empty state
