@@ -166,9 +166,7 @@ export default function DashboardPage() {
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="font-semibold tracking-wide">the flex.</div>
           <nav className="hidden md:flex gap-6 text-sm opacity-90">
-            <span>Landlords</span>
-            <span>About Us</span>
-            <span>Contact</span>
+        
           </nav>
         </div>
       </div>
